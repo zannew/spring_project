@@ -7,6 +7,7 @@
 
 	<!-- @Autowired를 활성화 시키기 위한 설정 -->
 	<context:annotation-config></context:annotation-config>
+	<!-- 해당 패키지("di") 안에 있는 @component를 스캔해서 빈 객체로 등록  -->
 	<context:component-scan base-package="di"></context:component-scan>
 
 </beans>
