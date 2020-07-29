@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\BIT01-18\Documents\GitHub\curriculum_0330\spring_project\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1949612372.index
+384758443.index
+3158648900.index
+4258158363.index
+1128068244.index
+4013575743.index

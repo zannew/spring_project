@@ -1,0 +1,29 @@
+package di.main;
+
+import java.util.Scanner;
+
+import org.springframework.context.support.GenericXmlApplicationContext;
+
+import di.domain.RegisterRequest;
+import di.exception.AlreadyExistingMemberException;
+import di.exception.IdPasswordNotMatchingException;
+import di.exception.MemberNotFoundException;
+import di.service.ChangePasswordService2;
+import di.service.MemberRegisterService2;
+
+public class MainForSpring4 {
+	
+	private static GenericXmlApplicationContext ctx = null;
+	//scope 비교 :  singleton & prototype
+	public static void main(String[] args) {
+		
+		ctx = new GenericXmlApplicationContext("classpath:appCtx7.xml");
+
+		
+		
+		
+		
+	}
+
+
+}

@@ -1,0 +1,24 @@
+INDEX VERSION 1.131+C:\Users\BIT01-18\Documents\GitHub\curriculum_0330\spring_project\.metadata\.plugins\org.eclipse.jdt.core
+7344273.index
+3158648900.index
+2804129586.index
+2096200218.index
+3306301277.index
+3294493296.index
+2584876436.index
+3656784251.index
+331676543.index
+3932041942.index
+3698974399.index
+1593991146.index
+405476765.index
+101139788.index
+2488496283.index
+253103792.index
+2194259957.index
+3629309203.index
+1198626942.index
+612753299.index
+2698326463.index
+2692565921.index
+1608177253.index
