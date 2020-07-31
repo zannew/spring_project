@@ -16,8 +16,8 @@
 	<select>
 	<c:forEach items="${searchType}" var="type">
 		<option value="${type.tno}">${type.type}</option>
-	</select>
 	</c:forEach>
+	</select>
 	
 
 </body>

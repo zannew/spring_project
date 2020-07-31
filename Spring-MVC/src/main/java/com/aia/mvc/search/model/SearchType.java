@@ -7,12 +7,12 @@ public class SearchType {
 	private int tno;
 	private String type;
 	
-	//default cnstrtr
+	//default constructor
 	public SearchType() {
 		super();
 	}
 	
-	//cnstrtr
+	//constructor
 	public SearchType(int tno, String type) {
 		super();
 		this.tno = tno;

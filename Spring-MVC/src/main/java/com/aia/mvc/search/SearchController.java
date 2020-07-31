@@ -35,7 +35,7 @@ public class SearchController {
 	}
 	
 	
-	@ModelAttribute("searchType")	//searchType이라는 이름으로 위에 메서드들 공유
+	@ModelAttribute("searchType")	//searchType이라는 이름으로 위에 메서드들을 공유
 	public List<SearchType> searchType(){
 		
 		List<SearchType> options = new ArrayList<SearchType>();

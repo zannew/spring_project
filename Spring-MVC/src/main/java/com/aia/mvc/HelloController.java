@@ -15,7 +15,7 @@ public class HelloController {
 		
 		
 		return "hello/hello";
-		// /WEB-INF/views/hello/hello.jsp
+		// /WEB-INF/views/hello/hello.jsp	→ 여기로 갈거야(view페이지)
 		
 	}
 	

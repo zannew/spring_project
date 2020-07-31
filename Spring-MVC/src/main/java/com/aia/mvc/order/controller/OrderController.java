@@ -9,7 +9,7 @@ import com.aia.mvc.order.model.OrderCommand;
 @Controller
 public class OrderController {
 	
-	//name값을 @Controller에서 설정할 수 있다. → 사용에 제한적 → 관리를 위해 controller를 나눔
+	//name값을 @Controller에서 설정할 수 있다. → 사용에 제한적 → 관리를 위해 controller를 나누는게 better
 	@RequestMapping(value = "/order/order", method = RequestMethod.GET)
 	public String orderForm() {
 		

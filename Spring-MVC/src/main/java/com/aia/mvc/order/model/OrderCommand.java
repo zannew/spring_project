@@ -2,7 +2,6 @@ package com.aia.mvc.order.model;
 
 import java.util.List;
 
-import org.springframework.web.bind.annotation.ModelAttribute;
 
 public class OrderCommand {
 
