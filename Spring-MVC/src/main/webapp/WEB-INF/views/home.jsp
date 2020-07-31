@@ -15,6 +15,18 @@
 		
 		<!-- /mvc/login/login -->
 		<li><a href="<c:url value='/login/login'/>">/login/login(GET)</a></li>
+		
+		<li><a href="<c:url value='/search'/>">/search</a></li>
+		<li><a href="<c:url value='/search/searchForm'/>">/searchForm</a></li>
+		
+		<li><a href="<c:url value='/order/order'/>">/order/order</a></li>
+
+		<li><a href="<c:url value='/cookie/makeCookie'/>">/cookie/makeCookie</a></li>
+		<li><a href="<c:url value='/cookie/viewCookie'/>">/cookie/viewCookie</a></li>
+		
+		<li><a href="<c:url value='/header/getHeader'/>">/header/getHeader</a></li>
+		
+		
 	</ul>
 
 </body>

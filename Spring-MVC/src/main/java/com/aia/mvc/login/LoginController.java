@@ -3,6 +3,7 @@ package com.aia.mvc.login;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -27,7 +28,8 @@ public class LoginController {
 	public String login(HttpServletRequest request, 
 						@RequestParam("uid") String userId,
 						@RequestParam("upw") String userPw, 
-						@ModelAttribute("login") LoginRequest loginRequest) {
+						@ModelAttribute("login") LoginRequest loginRequest,	//loginRequest라는 이름을 "login"으로 바꿔서 저장
+						Model model) {
 		
 		
 		// request가 현재 들어오는 request인지 여부 확인용
@@ -41,10 +43,17 @@ public class LoginController {
 		System.out.println("userId : "+userId);
 		System.out.println("userPw : "+userPw);
 		System.out.println("-------------------------------------------");
+		
+		/*
+		 * request.setAttribute("id", "scott");
+		 * 
+		 * model.addAttribute("id", uid); model.addAttribute("pw", upw);
+		 */
+		
+		
 		//자동으로 바인딩되어있음
 		System.out.println(loginRequest.getUid());
 		System.out.println(loginRequest.getUpw());
-		
 		
 		
 		return "login/login"; 

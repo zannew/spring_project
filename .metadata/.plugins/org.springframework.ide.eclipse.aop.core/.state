@@ -2,6 +2,6 @@
 <aop-reference-model>
 <aop-project name="TestApp"/>
 <aop-project name="SpringDI"/>
-<aop-project name="Spring-DI"/>
+<aop-project name="Spring-MVC"/>
 <aop-project name="TestJavaProject"/>
 </aop-reference-model>
