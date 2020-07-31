@@ -26,6 +26,8 @@
 		
 		<li><a href="<c:url value='/header/getHeader'/>">/header/getHeader</a></li>
 		
+		<li><a href="<c:url value='/report/reportForm'/>">/report/reportForm</a></li>
+		
 		
 	</ul>
 
