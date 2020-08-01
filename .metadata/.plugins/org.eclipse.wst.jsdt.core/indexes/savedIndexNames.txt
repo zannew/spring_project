@@ -1,14 +1,5 @@
 INDEX VERSION 1.4+C:\Users\BIT01-18\Documents\GitHub\curriculum_0330\spring_project\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2067454389.index
-3968337179.index
-3227035819.index
-4016657329.index
-2961638536.index
-125084058.index
-800141317.index
 1543064551.index
 3158648900.index
-450550733.index
-1536591172.index
-3014221203.index
-4266183018.index
+2067454389.index
+2920906105.index
